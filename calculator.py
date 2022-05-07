@@ -100,3 +100,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     calc = Calculator()
     sys.exit(app.exec_())
+
+# This is a comment by Raj
