@@ -2,7 +2,7 @@
 def MultiplyCollection(inputValues):
     sum = 1    
     for num in inputValues:
-        sum *=num
+        sum = sum * int(num)
     return sum
 
 # To multiply two numbers
