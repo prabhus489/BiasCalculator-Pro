@@ -1,4 +1,4 @@
-def GetPercentFloat(first, second, integer = False):
+def GetPercentFloat(first, second, integer = True):
    percent = first / second * 100
    
    if integer:
@@ -12,9 +12,3 @@ num2 = float(input("Enter Second number: "))
 
 GetPercentFloat(num1, num2)
 print(GetPercentFloat(num1, num2))
-#Sample output
-#33.33333333333333
-
-
-
-
