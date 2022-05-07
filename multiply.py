@@ -8,3 +8,7 @@ def MultiplyCollection(inputValues):
 # To multiply two numbers
 def MultiplyTwoNumbers(num1, num2):
     return num1 * num2
+
+# To multiply two numbers
+def MultiplyNumbers(a, b):
+    return a * b
