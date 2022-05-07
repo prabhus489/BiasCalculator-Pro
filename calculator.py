@@ -1,5 +1,4 @@
 import sys
-
 from PyQt5.QtWidgets import QApplication, QVBoxLayout, QGridLayout, QPushButton, QLabel, QTextEdit
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtCore import Qt
@@ -7,6 +6,9 @@ import SimpleCalculator as calc_func
 
 
 class Calculator(QWidget):
+"""
+Class for initializing the UI and calculator functionalities
+"""
 
     def __init__(self):
         super().__init__()
@@ -19,6 +21,9 @@ class Calculator(QWidget):
         self.op_pressed = False
 
     def create_ui(self):
+	"""
+	Class for creating the calculator UI
+	"""
         self.setWindowTitle('Calculator')
         vBoxLayout = QVBoxLayout()
         gridLayout = QGridLayout()
@@ -52,6 +57,9 @@ class Calculator(QWidget):
         self.show()
 
     def button_clicked(self):
+	"""
+	Method for creating the connection between UI element and the functionality
+	"""
         # TODO: Implement Calculator logic
         sender = self.sender()
         button_txt = sender.text()
@@ -80,6 +88,9 @@ class Calculator(QWidget):
         self.result_display.setAlignment(Qt.AlignRight)
         
     def perform_op():
+	"""
+	Method for performing the arithmetic operations 
+	"""
         if self.current_op == 'add':
             result = calc_func.add(self.x, self.y)
         elif self.current_op == 'subtract':
@@ -100,3 +111,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     calc = Calculator()
     sys.exit(app.exec_())
+
+# This is a comment by Raj
