@@ -1,2 +1,5 @@
 # BiasCalculator-Pro
-This is project is for group of students from BITS WILP to work on Assignment/Project
+This is a calculator designed as part of OSSE assignment by BITS-WILP students. 
+
+# Caculator UI
+![Calculator](calc.png)
