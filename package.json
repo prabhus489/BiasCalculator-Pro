@@ -1,0 +1,31 @@
+{
+	"name": "biascalculator-pro",
+	"version": "1.0.0",
+	"description": "This is a calculator designed as part of OSSE assignment by BITS-WILP students. The programming language chosen for the development in `Python3.x`",
+	"main": "calculator.py",
+	"scripts": {
+		"dev": "python calculator.py",
+		"test": "python -m unittest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prabhus489/BiasCalculator-Pro.git"
+	},
+	"keywords": [
+		"OSSE",
+		"Python",
+		"Calculator"
+	],
+	"author": "Prabhu S <2020mt93726@wilp.bits-pilani.ac.in>",
+	"contributors": [
+		"Vivek G <2020mt93582@wilp.bits-pilani.ac.in>",
+		"Nitin Philip <2020mt93552@wilp.bits-pilani.ac.in>",
+		"Nirmal Kumar S <2020mt93549@wilp.bits-pilani.ac.in>",
+		"Raja Simhan. N <2020mt93257@wilp.bits-pilani.ac.in>"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/prabhus489/BiasCalculator-Pro/issues"
+	},
+	"homepage": "https://github.com/prabhus489/BiasCalculator-Pro#readme"
+}
